@@ -1,0 +1,92 @@
+.desktop-background
+  width: 100%
+  height: 100vh
+  background-color: #002c10
+  padding: 80px
+  cursor: url('cursor-1.png'),default
+  border: 5px solid $green
+
+  .os-title-box
+    width: 20%
+    height: 20%
+    background-color: #002c10
+    border: 5px solid $green
+    position: absolute
+    bottom: 20px
+    right: 20px
+    display: flex
+    justify-content: center
+    align-items: center
+    h1
+      font-size: 3vw
+      font-family: 'Monoton'
+      color: $green
+
+  .side-box
+    width: 20%
+    height: 75%
+    background-color: #002c10
+    border: 5px solid $green
+    position: absolute
+    bottom: 210px
+    right: 20px
+    padding: 5px
+    h1
+      text-align: center
+      color: $green
+      font-family: 'Comfortaa'
+      font-size: 2.5vw
+    h3
+      color: $green
+      font-family: 'VT323'
+
+    h4
+      color: $green
+      font-family: 'VT323'
+      font-size: 20px
+
+    .button
+      max-width: 60%
+      margin: 20px auto
+      border: 3px solid $green
+      border-radius: 3px
+      h1
+        padding: 10px 0px
+        font-size: 1vw
+        font-family: 'Exo 2',sans-serif
+        font-weight: 400
+    .button:hover
+      background-color: $green
+      h1
+        color: #002c10
+
+
+    .readme
+      margin-top: 40px
+
+  .top-box
+    width: 77.5%
+    height: 15%
+    border: 5px solid $green
+    position: absolute
+    top: 0
+    left: 0
+    left: 20px
+    top: 15px
+    display: flex
+    align-items: center
+    h1
+      color: $green
+      font-size: 80px
+      font-family: 'Comfortaa'
+      margin-left: 20px
+      .blink
+        animation: blink 0.5s infinite
+
+@keyframes blink
+  0%
+    opacity: 1
+  50%
+    opacity: 0
+  100%
+    opacity: 1
